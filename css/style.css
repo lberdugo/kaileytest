@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Jacquarda+Bastarda+9&display=swap');
+
+
+
+body{
+    background-color: white;
+
+}
+
+#Pinterest{
+    color: #C8232C;
+    background-color: white;
+    margin-top: 60px;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  position: fixed;
+
+  
+}
+
+p{
+    color: black;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+    
+}
+
+.container {
+display: inline-flex;
+flex-direction: row;
+
+}
+
+
+
+footer {
+ text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    font-weight: 600 ;
+}
+
+footer img {
+    max-width: 50px; 
+    height: auto;
+    align-content: center;
+    grid-column: 4/ span 12 ;
+}
+
+
+
+
+header {
+    position: fixed;
+    background-color: rgb(181, 181, 181);
+    top: 60px;
+    left: 5in;
+    size: 150%;
+    height: auto;
+    object-fit: cover; /* Ensure the video covers the full area without distortion */
+    z-index: -1; /
+
+}
+
+section img {
+    border-radius: 15%;
+
+}
+
+#pins {
+    display: grid;
+    justify-content: space-around;
+}
+
+caption {
+    background-color: rgb(170, 155, 155);
+   
+}
+
+/* #palmsprings{
+   
+} */
